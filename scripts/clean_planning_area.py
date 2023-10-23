@@ -1,3 +1,5 @@
+from bs4 import BeautifulSoup
+
 def format_geojson_planning_area(gdf):
     # Define a function to extract header cells and data cells from an HTML string
     def extract_cells_from_html(html_string):
